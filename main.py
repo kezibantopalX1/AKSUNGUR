@@ -3,7 +3,6 @@ from pydantic import BaseModel
 from typing import List, Dict
 
 app = FastAPI()
-
 class SentimentRequest(BaseModel):
     text: str
 
